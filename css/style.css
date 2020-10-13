@@ -42,10 +42,13 @@ main {
   height: 300px;
   width: 50%;
   background-color: purple;
+  border: 1px solid white;
+  border-radius: 2%;
   position: absolute;
   top: 0%;
   left: 50%;
   transform: translateX(-50%);
+  margin-top: 10px;
 }
 
 #second-sect {
