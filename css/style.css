@@ -2,8 +2,8 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  border: 0;
 }
-
 
 body {
   margin: 2% 20%;
@@ -13,10 +13,37 @@ body {
   background-size: cover;
 }
 
+
 header {
+  position: relative;
   height: 200px;
-  background-color: yellow;
   margin: auto;
+  background-image: url(https://downloadwap.com/thumbs2/wallpapers/p2ls/new/33/2KTmXgcz.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 4px solid white;
+}
+.layover {
+  width: 100%;
+  height: 193px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.head-text {
+  color: white;
+}
+#natural {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 4px solid white;
+  padding: 5px;
+}
+#sub-head-text {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%, -10%);
 }
 
 main {
@@ -35,13 +62,13 @@ main {
 #first-sect {
   height: 350px;
   width: 17%;
-  background-color: lightblue;
+  background-color: white;
 }
 
 #aside {
   height: 300px;
   width: 50%;
-  background-color: purple;
+  background-color: white;
   border: 1px solid white;
   border-radius: 2%;
   position: absolute;
@@ -54,25 +81,21 @@ main {
 #second-sect {
   height: 350px;
   width: 17%;
-  background-color: lightblue;
+  background-color: white;
   float: left;
 }
 
 #third-sect {
   height: 350px;
   width: 17%;
-  background-color: lightblue;
+  background-color: white;
   clear: both;
 }
 
 #forth-sect {
-  /* position: absolute;
-  bottom: 0;
-  right: 0; */
-  /* margin-bottom: 30px; */
   height: 350px;
   width: 17%;
-  background-color: lightblue;
+  background-color: white;
   clear: both;
 }
 
