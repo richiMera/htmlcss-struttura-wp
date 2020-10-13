@@ -59,14 +59,18 @@ main {
   border-radius: 2%;
 }
 
+.box {
+  padding: 20px;
+}
+
 #first-sect {
-  height: 350px;
+  /* height: 350px; */
   width: 17%;
   background-color: white;
 }
 
 #aside {
-  height: 300px;
+  /* height: 300px; */
   width: 50%;
   background-color: white;
   border: 1px solid white;
@@ -79,24 +83,41 @@ main {
 }
 
 #second-sect {
-  height: 350px;
+  position: relative;
+  /* height: 350px; */
   width: 17%;
   background-color: white;
   float: left;
+  padding: 5px;
+}
+.fa-signal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 25px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+#organic-title {
+ text-align: center;
 }
 
+
 #third-sect {
-  height: 350px;
+  /* height: 350px; */
   width: 17%;
   background-color: white;
   clear: both;
 }
 
 #forth-sect {
-  height: 350px;
+  /* height: 350px; */
   width: 17%;
   background-color: white;
   clear: both;
+}
+h2 {
+  margin-bottom: 15px;
 }
 
 
@@ -138,8 +159,5 @@ main{
 }
 #copyright {
   text-align: center;
-  opacity: 0.5;
-}
-hr {
   opacity: 0.5;
 }
